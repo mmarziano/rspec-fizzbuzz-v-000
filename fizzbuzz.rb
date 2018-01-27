@@ -1,18 +1,12 @@
 def fizzbuzz(int)
-  def fizz_3(input)
-    if input % 3 == 0 
-      puts "Fizz"
-    end
-  end
-  def fizz_5(input)
-    if input % 5 == 0 
-      puts "Buzz"
-    end
-  end
-  def fizz_15(input)
-    if input % 15 == 0 
-      puts "FizzBuzz"
-    end
+  if int % 3 == 0 
+    return "Fizz"
+  elsif int % 5 == 0 
+    return "Buzz"
+  elsif int % 15 == 0 
+    return "FizzBuzz"
+  else int % 4 == 0 
+    return "nil"
   end
 end
 
