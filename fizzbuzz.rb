@@ -6,6 +6,7 @@ elsif int % 5 == 0
 
 else int % 15 == 0 
     puts "FizzBuzz"
+  end
 end
-end
+
 fizzbuzz(3)
